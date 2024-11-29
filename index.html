@@ -1,11 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Typing Tester</title>
+    <link rel="stylesheet" href="./Assets/index.css" />
+  </head>
+  <body>
+    <h1>Typing Speed Tester</h1>
+    <p id="sample-text">Type the following text to test your typing speed!</p>
+    <textarea id="input-text" placeholder="Start typing here..."></textarea>
+    <div class="button-container">
+      <button>
+        <span onclick="startTest()" class="text">Start</span>
+      </button>
+      <button>
+        <span onclick="endTest()" class="text">Submit</span>
+      </button>
+    </div>
+    <div id="result"></div>
+    <script src="./Assets/app.js"></script>
+  </body>
 </html>
